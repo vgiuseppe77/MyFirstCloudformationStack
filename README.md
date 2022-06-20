@@ -19,10 +19,11 @@ High available WordPress setup on AWS, based on the AWS "WordPress_Multi_AZ" tem
     - Apache 2.4
     - PHP 7.3
     - MysQL client 5.7
-    - latest Wor
+    - latest WordPress version downloaded during the setup
 
 **Cloudformation Designer schema:**
 ![WordPress-Designer](https://user-images.githubusercontent.com/10097753/174570511-c4b22ce2-1e54-47d6-a980-c6458d46047c.png)
 
 To deploy the infrastructure, upload the json file in Cloudformation and fill the required fields.
 The deployment takes approx 25 min.
+At the end, click on the WebsiteURL in the Output tab.
